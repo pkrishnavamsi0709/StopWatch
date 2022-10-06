@@ -1,0 +1,32 @@
+.timerbtn{
+    width:80px;
+    height:30px;
+    border:3px solid;
+    border-radius:12px;
+    background-color:#f49964;
+    color:white;
+    cursor: pointer;
+    font-family: consolas,monospace;
+}
+
+#timedisplay{
+   font-size: 75px;
+   color:#317773;
+   font-family: consolas,monospace;
+}
+
+#timecontainer{
+    text-align: center;
+    border:3px solid;
+    border-radius:25px;
+    background-color:#be91f8;
+}
+h1{
+    text-align: center;
+}
+#history{
+    background-color: #91f268;
+    text-align:center;
+    width:100px;
+    height:150px;
+}
