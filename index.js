@@ -53,6 +53,7 @@ pausebtn.addEventListener("click",() =>{
 });
 resetbtn.addEventListener("click",() =>{
     paused=true;
+    document.getElementById("history").style.height=0+"px";
     clearInterval(intervalId);
     startTime=0;
     elapsedTime=0;
