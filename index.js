@@ -8,6 +8,7 @@ let elapsedTime=0;
 let currentTime=0;
 let paused=true;
 let intervalId=0;
+let count=0;
 let dis="";
 
 let hrs=0;
@@ -27,8 +28,9 @@ startbtn.addEventListener("click",() =>{
 pausebtn.addEventListener("click",() =>{
     if(!paused){
         paused=true;
-        /*h=h+20;
-        history.style.height=h+"px";*/
+        count=count+0.4;
+        h=h+20+count;
+        document.getElementById("history").style.height=h+"px";
         document.getElementById("pausebtn").innerHTML="Resume";
         elapsedTime=Date.now()-startTime;
         secs=Math.floor((elapsedTime/1000)%60);
